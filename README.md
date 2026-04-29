@@ -1,12 +1,12 @@
-# Desafio DIO: Personalizando o Banco de Dados com Índices e Procedures
+# Database Specialist - Projetos SQL (DIO)
 
-Este repositório contém a solução para o desafio de técnicas avançadas em SQL.
+Este repositório contém a solução para dois desafios principais:
 
-## 🚀 Justificativa dos Índices
-Para otimizar o cenário 'Company', foram criados os seguintes índices:
-- **idx_employee_dno**: Melhora o desempenho de contagens e agrupamentos por departamento.
-- **idx_dept_locations_dlocation**: Acelera buscas filtradas por cidade/localização.
-- **idx_employee_name_dept**: Otimiza a recuperação de nomes de funcionários já ordenados por setor.
+## 🚀 1. Índices e Procedures (Otimização)
+- Criação de índices B-Tree para ganho de performance.
+- Procedures para centralizar a lógica de CRUD.
 
-## ⚙️ Procedures
-A procedure `sp_ManipularDados` foi desenvolvida para centralizar as operações de CRUD (Inserção, Atualização e Deleção) de produtos, utilizando a estrutura condicional `CASE` para validar a ação desejada.
+## 🛡️ 2. Views, Triggers e Segurança (Automação)
+- Views para abstração de relatórios complexos.
+- Triggers para manutenção de integridade e logs de auditoria.
+- Controle de acesso (DCL) com diferentes níveis de privilégios.
